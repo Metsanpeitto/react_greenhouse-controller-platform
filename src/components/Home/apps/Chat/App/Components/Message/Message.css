@@ -1,0 +1,35 @@
+.mymessage {
+  display: flex;
+  border-radius: 8px;
+  max-width: max-content;
+  padding: 10px;
+  margin: 4px;
+  list-style: none;
+  margin-inline-start: auto;
+
+  background: #1f73b7;
+  color: #fff;
+}
+.theirmessage {
+  display: flexbox !important;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Chrome */
+  display: flex;
+  border-radius: 8px;
+  max-width: fit-content !important;
+  padding: 10px;
+  margin: 4px;
+  margin-inline-end: auto;
+  background: #f3f3f3;
+  color: #000;
+}
+.message:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+.message__author {
+  font-weight: 600;
+  margin-right: 0px;
+  color: rgba(0, 0, 0, 1);
+}

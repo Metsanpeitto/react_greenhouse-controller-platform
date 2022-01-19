@@ -1,0 +1,293 @@
+@media only screen and (min-width: 1400px) {
+  .app {
+    text-align: center;
+  }
+  .app__logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  .app__header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+  }
+  .app__intro {
+    font-size: large;
+  }
+  .app__list {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .app__button {
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    outline: 0;
+  }
+  .app__button:hover {
+    opacity: 1;
+  }
+
+  .grid-item {
+    width: 50%;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .chat-canvas {
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+
+  .chat-title {
+    padding-bottom: 1%;
+  }
+
+  .grid-container {
+    display: flex;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 900px) and (max-device-width: 1400px) {
+  .app {
+    text-align: center;
+  }
+  .app__logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  .app__header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+  }
+  .app__intro {
+    font-size: large;
+  }
+  .app__list {
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .app__button {
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    outline: 0;
+  }
+  .app__button:hover {
+    opacity: 1;
+  }
+
+  .grid-item {
+    width: 50%;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .chat-canvas {
+    margin-top: 1%;
+    margin-left: 30%;
+  }
+
+  .chat-title {
+    padding-bottom: 1%;
+  }
+
+  .grid-container {
+    display: flex;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 480px) and (max-device-width: 900px) {
+  .app {
+    text-align: center;
+  }
+  .app__logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  .app__header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+  }
+  .app__intro {
+    font-size: large;
+  }
+  .app__list {
+    width: fit-content;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .app__button {
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    outline: 0;
+  }
+  .app__button:hover {
+    opacity: 1;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .chat-canvas {
+    margin-top: 5%;
+  }
+
+  .chat-grid-card {
+    position: relative;
+    padding-top: 0%;
+    height: 550px;
+    width: 550px;
+    margin-right: 0% !important;
+    margin-left: 0%;
+  }
+
+  .chat-title {
+    padding-top: 1%;
+  }
+
+  .panel-grid-card {
+    position: relative;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem;
+    width: 85%;
+    height: 550px;
+    margin-top: 11% !important;
+  }
+
+  .grid-container {
+    display: inline-flex;
+  }
+
+  .panel-search-options {
+    margin: 4% !important;
+  }
+
+  .app__groups {
+    padding-left: 0%;
+  }
+
+  .search-result-canvas {
+    height: 185px;
+    overflow-y: scroll;
+  }
+
+  .form {
+    height: 460px !important;
+    display: grid;
+  }
+
+  .form__row {
+    margin-top: 2%;
+  }
+
+  .form__input {
+    width: 435px;
+  }
+}
+
+/* Smartphones (portrait and landscape) --------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .app {
+    text-align: center;
+    /**/
+
+  }
+  .app__logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+  .app__header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+  }
+  .app__intro {
+    font-size: large;
+  }
+  .app__list {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .app__button {
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    outline: 0;
+  }
+  .app__button:hover {
+    opacity: 1;
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .chat-canvas {
+    margin-top: 5%;
+  }
+
+  .chat-grid-card {
+    position: relative;
+    padding-top: 0%;
+    height: 440px;
+    width: 335px;
+    margin-right: 0% !important;
+    margin-left: 0%;
+  }
+
+  .chat-title {
+    padding-top: 1%;
+  }
+}

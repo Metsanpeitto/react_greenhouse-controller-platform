@@ -1,0 +1,87 @@
+.white {
+  color: #ffffff;
+}
+
+.overlay {
+  background-color: rgba(183, 183, 187, 0.89) !important;
+  display: block;
+  height: fit-content;
+  width: 50%;
+  left: 40%;
+  top: 25%;
+  overflow: auto;
+  position: fixed;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-message {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.form-canvas {
+  width: 100%;
+}
+
+.container {
+  padding: 5%;
+}
+
+.container-canvas {
+  width: 100%;
+}
+
+@keyframes overlay-anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.overlay-anim {
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+  animation-name: overlay-anim;
+  width: 340px;
+  opacity: 0;
+}
+
+@media only screen and (min-width: 1024px) and (max-device-width: 1400px) {
+  .overlay {
+    background-color: rgba(183, 183, 187, 0.89) !important;
+    display: block;
+    height: fit-content;
+    width: 30%;
+    left: 35%;
+    top: 15%;
+    overflow: auto;
+    position: fixed;
+    border-radius: 10px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .overlay {
+    background-color: rgba(183, 183, 187, 0.89) !important;
+    display: block;
+    height: fit-content;
+    width: 90%;
+    left: 4%;
+    top: 10%;
+    overflow: auto;
+    position: fixed;
+    border-radius: 10px;
+  }
+
+  .btn-primary {
+    margin: 0%;
+  }
+}

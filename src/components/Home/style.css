@@ -1,0 +1,1558 @@
+/* font faces */
+/*asd*/
+
+@font-face {
+  font-family: "basefont-regular";
+  src: local("basefont-regular"),
+    url("./assets/fonts/circular/CircularStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "basefont-medium";
+  src: local("basefont-medium"),
+    url("./assets/fonts/circular/CircularStd-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "basefont-bold";
+  src: local("basefont-bold"),
+    url("./assets/fonts/circular/CircularStd-Bold.otf") format("opentype");
+}
+
+/* typography styles   */
+/**/
+.is-dark-text {
+  color: rgb(67, 68, 86);
+}
+
+.is-dark-text-light {
+  color: rgb(128, 145, 171);
+}
+
+.is-light-text {
+  color: rgb(255, 255, 255);
+}
+
+/* font weights */
+
+.font-medium {
+  font-family: "basefont-medium";
+}
+
+.font-bold {
+  font-family: "basefont-bold";
+}
+
+/* Colors */
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1400px) {
+  /* text sizes */
+  .text-x-large {
+    font-size: 2.2rem;
+  }
+
+  .text-large {
+    font-size: 1.6rem;
+  }
+
+  .text-medium {
+    font-size: 1rem;
+  }
+
+  .text-small {
+    font-size: 1rem;
+  }
+
+  .text-x-small {
+    font-size: 1rem;
+  }
+
+  /* letter spacing */
+  .letter-spacing {
+    letter-spacing: 0.05rem;
+  }
+
+  .chart-container svg text {
+    letter-spacing: 0.05rem;
+  }
+
+  .container-fluid {
+    width: 95% !important;
+  }
+
+  /* navbar styles */
+  .is-white {
+    background: rgb(255, 255, 255);
+    height: 6px;
+  }
+
+  .nav-auth-grid {
+    padding: inherit;
+  }
+
+  .navbar-noauth-grid {
+    justify-content: space-between;
+  }
+
+  .nav-noauth-grid-landing {
+    align-self: center;
+  }
+
+  .nav-noauth-grid-signin {
+    align-self: center;
+  }
+
+  .navbar-tab-canvas {
+    font-size: 3%;
+  }
+
+  .bDpJEf ul {
+    padding-top: 19px;
+    padding-left: 20px;
+    margin: 0%;
+  }
+
+  .is-dark {
+    background: rgb(19, 25, 36);
+
+    height: 60px;
+  }
+
+  .grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-width: max-content;
+    height: auto;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .readings-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    width: 100%;
+    /* padding: 2%; */
+    height: 600px;
+    margin-left: 125%;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem;
+  }
+
+  .chart-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 2%;
+    height: 600px;
+    width: 800px;
+    margin-left: 15%;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem;
+  }
+
+  .readings-grid-readings {
+    padding-top: "0%";
+    padding-bottom: "1%";
+    margin-left: " 4%";
+  }
+
+  .chart-title-text-large {
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 1%;
+  }
+
+  .readings-title-text-large {
+    text-align: center;
+    padding-top: 14%;
+    padding-bottom: 5%;
+  }
+
+  .chart-canvas {
+    margin-top: 0%;
+  }
+
+  .temperature-header-chart {
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  .readings-header-chart {
+    padding-top: 6%;
+    padding-left: 5%;
+  }
+
+  .readings-mui-grid {
+    margin: 0%;
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  .container-chart {
+    padding-top: 9%;
+    margin-top: 10%;
+    height: 50%;
+    width: 50%;
+  }
+
+  .chart {
+    padding-top: 7%;
+    height: 100%;
+  }
+
+  .readings-grid {
+    padding-left: 2%;
+    padding-top: 5%;
+  }
+
+  .readings-grid-chart {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  .card-value {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .temp-grid-card {
+    min-width: max-content;
+    text-align: center;
+    padding-bottom: 0%;
+    width: 100%;
+  }
+
+  .readings-canvas {
+    margin-top: 11%;
+    margin-left: 4%;
+    width: initial;
+  }
+
+  .readings-chart-container {
+    margin-top: 7%;
+  }
+
+  .readings-card-actualValue {
+    padding-left: 0.2%;
+  }
+
+  .readings-card-headerValue {
+    padding-left: 0.2%;
+    margin-right: 0.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: max-content;
+    word-wrap: normal;
+    text-align: center;
+  }
+
+  .setup-canvas {
+    margin-top: 11%;
+  }
+
+  .setup-card-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  .setup-main-grid {
+    align-content: center;
+    width: 100%;
+    margin: 5%;
+  }
+
+  .setup-time {
+    align-content: top;
+  }
+
+  .setup-water {
+    align-content: top;
+  }
+
+  .setup-temp {
+    align-content: top;
+  }
+
+  .setup-submit-button {
+    background-color: "white";
+    margin-left: "30.5%";
+    padding-left: "5%";
+    padding-right: "5%";
+  }
+
+  .setup-submit-button-canvas {
+    margin-left: 32.5%;
+  }
+
+  .buttons-container {
+    padding-top: 2%;
+  }
+
+  .setup-textField {
+    border: 0;
+    margin: 0;
+    display: inline-flex;
+    padding: 26px;
+    position: sticky;
+    min-width: 0;
+    flex-direction: column;
+    vertical-align: top;
+  }
+
+  .setup-div-textfield {
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-bottom: 10%;
+  }
+
+  .setup-div-buttons {
+    height: fit-content;
+    display: grid;
+    margin-top: 6%;
+  }
+
+  .setup-button-card-canvas {
+    margin-top: 0%;
+    padding: 5%;
+    height: auto;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem !important;
+  }
+
+  .setup-button {
+    margin-top: 2%;
+    padding: 5%;
+    width: 90% !important;
+  }
+
+  .setup-buttons-canvas {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: grid;
+  }
+
+  .setup-buttons-title {
+    height: fit-content;
+    min-width: -webkit-fill-available;
+    text-align: -webkit-center;
+    margin-top: 10%;
+  }
+
+  .table {
+    width: 100%;
+    /* min-width: max-content; */
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+  .alarm-canvas {
+    margin-top: 0%;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 600px;
+  }
+
+  .alarm-card {
+    margin: 1%;
+    padding: 3%;
+    margin-top: 11%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem !important;
+  }
+
+  .alarm-header {
+    text-align: center;
+  }
+
+  .task-canvas {
+    height: 900px;
+    margin-top: 1%;
+    padding: 1%;
+  }
+
+  .calendar-canvas {
+    height: 800px;
+    margin-top: 1%;
+  }
+
+  .calendar-card {
+    margin-top: 2%;
+    height: 890px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+  }
+
+  .chat-canvas {
+    margin-top: 5%;
+    padding: 1%;
+    position: relative;
+  }
+
+  .MuiTab-wrapper {
+    font-size: 1.2rem;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 900px) and (max-device-width: 1400px) {
+  /* text sizes */
+  .text-x-large {
+    font-size: 1.9rem;
+  }
+
+  .text-large {
+    font-size: 1.2rem;
+  }
+
+  .text-medium {
+    font-size: 1rem;
+  }
+
+  .text-small {
+    font-size: 0.95rem;
+  }
+
+  .text-x-small {
+    font-size: 0.8rem;
+  }
+
+  .container-fluid {
+    width: 95% !important;
+  }
+
+  /* navbar styles */
+  .is-white {
+    background: rgb(255, 255, 255);
+    height: 65px;
+  }
+
+  .is-dark {
+    background: rgb(19, 25, 36);
+    height: 60px;
+  }
+
+  .grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-width: max-content;
+    /* padding: 2%; */
+    height: 450px;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem !important;
+  }
+
+  .readings-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-width: max-content;
+    /* padding: 2%; */
+    height: 500px;
+    margin-left: 180%;
+    margin-top: 0%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .chart-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 2%;
+    width: 740px;
+    height: 500px;
+    margin-left: 12%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .chartjs-render-monitor {
+    display: block;
+    height: 350px !important;
+    width: 600px !important;
+  }
+
+  .chart-title-text-large {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 1%;
+  }
+
+  .readings-title-text-large {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 18%;
+  }
+
+  .temperature-header-chart {
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  .readings-header-chart {
+    padding-top: 6%;
+    padding-left: 5%;
+  }
+
+  .readings-mui-grid {
+    margin: 0%;
+    width: 100%;
+    padding-left: 1%;
+  }
+
+  .container-chart {
+    padding-top: 9%;
+    margin-top: 10%;
+    height: 50%;
+    width: 50%;
+  }
+
+  .chart {
+    padding-top: 7%;
+    height: 100%;
+  }
+
+  .readings-grid {
+    padding-left: 2%;
+    padding-top: 10%;
+  }
+
+  .readings-grid-readings {
+    padding-top: "0%" !important;
+    padding-bottom: "1%";
+    margin-left: " 4%";
+  }
+
+  .card-value {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .temp-grid-card {
+    min-width: max-content;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .readings-canvas {
+    margin: 0%;
+    padding: 0%;
+    width: -webkit-fill-available;
+  }
+
+  .readings-chart-container {
+    margin-top: 6%;
+    padding: 1%;
+    padding-bottom: 2%;
+  }
+
+  .readings-card-actualValue {
+    padding-left: 0.2%;
+  }
+
+  .readings-card-headerValue {
+    padding-left: 0.2%;
+    margin-right: 0.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: max-content;
+    word-wrap: normal;
+    text-align: center;
+  }
+
+  .readings-grid-chart {
+    margin-left: 4%;
+    padding-left: 5% !important;
+    padding-bottom: 0% !important;
+  }
+
+  .chart-title-text-large {
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .setup-canvas {
+    margin-top: 0%;
+    width: 97%;
+  }
+
+  .setup-card-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10%;
+    margin-bottom: 10%;
+  }
+
+  .setup-main-grid {
+    align-content: center;
+    height: 99%;
+  }
+
+  .setup-time {
+    align-content: top;
+  }
+
+  .setup-water {
+    align-content: top;
+  }
+
+  .setup-temp {
+    align-content: top;
+  }
+
+  .buttons-container {
+    padding-top: 10%;
+  }
+
+  .setup-textField {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  .setup-div-textfield {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+  }
+
+  .setup-div-buttons {
+    height: fit-content;
+    display: grid;
+    margin-top: 0%;
+  }
+
+  .setup-button-card-canvas {
+    margin-top: 0%;
+    padding: 5%;
+    height: 450px;
+    width: max-content;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem !important;
+  }
+
+  .setup-buttons-canvas {
+    margin: 1%;
+    margin-bottom: 1%;
+    padding-top: 5%;
+  }
+
+  .setup-buttons-title {
+    height: fit-content;
+    min-width: max-content;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+
+  .setup-submit-button {
+    background-color: white;
+    margin-left: 30.5% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .setup-button {
+    margin-top: 2%;
+    padding: 5%;
+    width: 90% !important;
+  }
+
+  .table {
+    width: 100%;
+    /* min-width: max-content; */
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+  .alarm-card {
+    margin: 5%;
+    margin-top: 1%;
+    padding: 5%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .alarm-header {
+    text-align: center;
+  }
+
+  .task-canvas {
+    margin-top: 0%;
+    padding: 0%;
+  }
+
+  .calendar-canvas {
+    margin-top: 0%;
+  }
+
+  .calendar-card {
+    height: 520px !important;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0%;
+    margin-top: 0% !important;
+  }
+
+  .rbc-toolbar {
+    height: 0%;
+    margin-bottom: 0%;
+  }
+
+  .rbc-calendar {
+    height: 87%;
+  }
+  .rbc-month-view {
+    margin-top: 3%;
+    height: 0%;
+  }
+
+  .chat-canvas {
+    margin-top: 5%;
+    position: relative;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 480px) and (max-device-width: 900px) {
+  /* text sizes */
+  .text-x-large {
+    font-size: 1.9rem;
+  }
+
+  .text-large {
+    font-size: 1.2rem;
+  }
+
+  .text-medium {
+    font-size: 1rem;
+  }
+
+  .text-small {
+    font-size: 0.95rem;
+  }
+
+  .text-x-small {
+    font-size: 0.8rem;
+  }
+
+  .container-fluid {
+    width: 95% !important;
+  }
+
+  /* navbar styles */
+  .is-white {
+    background: rgb(255, 255, 255);
+    height: 65px;
+  }
+
+  .is-dark {
+    background: rgb(19, 25, 36);
+    height: 60px;
+  }
+
+  .grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-width: unset;
+    width: 100%;
+    /* padding: 2%; */
+    height: fit-content;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem !important;
+  }
+
+  .readings-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-width: max-content;
+    /* padding: 2%; */
+    height: 500px;
+    margin-left: 90%;
+    margin-top: 0%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .chart-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 2%;
+    width: 634px;
+    height: 500px;
+    margin-left: 0%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .chartjs-render-monitor {
+    display: block;
+    height: 350px !important;
+    width: 600px !important;
+  }
+
+  .chart-title-text-large {
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 1%;
+  }
+
+  .readings-title-text-large {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 18%;
+  }
+
+  .temperature-header-chart {
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  .readings-header-chart {
+    padding-top: 6%;
+    padding-left: 5%;
+  }
+
+  .readings-mui-grid {
+    margin: 0%;
+    width: 100%;
+    padding-left: 1%;
+  }
+
+  .container-chart {
+    padding-top: 9%;
+    margin-top: 10%;
+    height: 50%;
+    width: 50%;
+  }
+
+  .chart {
+    padding-top: 7%;
+    height: 100%;
+  }
+
+  .readings-grid {
+    padding-left: 2%;
+    padding-top: 10%;
+  }
+
+  .readings-grid-readings {
+    padding-top: "0%" !important;
+    padding-bottom: "1%";
+    margin-left: " 4%";
+  }
+
+  .card-value {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .temp-grid-card {
+    min-width: max-content;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .readings-canvas {
+    margin: 0%;
+    padding: 0%;
+    width: -webkit-fill-available;
+  }
+
+  .readings-chart-container {
+    margin-top: 6%;
+    padding: 1%;
+    padding-bottom: 2%;
+  }
+
+  .readings-card-actualValue {
+    padding-left: 0.2%;
+  }
+
+  .readings-card-headerValue {
+    padding-left: 0.2%;
+    margin-right: 0.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: max-content;
+    word-wrap: normal;
+    text-align: center;
+  }
+
+  .readings-grid-chart {
+    margin-left: 4%;
+    padding-left: 9% !important;
+    padding-bottom: 0% !important;
+  }
+
+  .chart-title-text-large {
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .setup-canvas {
+    margin-top: 0%;
+    width: 97%;
+  }
+
+  .setup-card-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0%;
+  }
+
+  .setup-main-grid {
+    align-content: center;
+    height: 99%;
+  }
+
+  .setup-time {
+    padding-top: 1%;
+    padding-bottom: 0%;
+    height: 100%;
+    padding-left: 24% !important;
+  }
+
+  .setup-water {
+    align-content: top;
+    padding-left: 24% !important;
+  }
+
+  .setup-temp {
+    align-content: top;
+    padding-left: 24% !important;
+  }
+
+  .buttons-container {
+    padding-top: 10%;
+  }
+
+  .setup-textField {
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  .setup-div-textfield {
+    margin-top: 3%;
+    margin-left: 13%;
+    margin-bottom: 1%;
+  }
+
+  .setup-div-buttons {
+    height: fit-content;
+    display: grid;
+    margin-top: 0%;
+  }
+
+  .setup-button-card-canvas {
+    margin-top: 0%;
+    padding: 5%;
+    height: 450px;
+    width: 100%;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem !important;
+  }
+
+  .setup-buttons-grid {
+    padding-top: 1%;
+    padding-bottom: 0%;
+    height: 100%;
+    padding-left: 24% !important;
+  }
+
+  .setup-buttons-canvas {
+    margin: 1%;
+    margin-bottom: 1%;
+    padding-top: 5%;
+  }
+
+  .setup-buttons-title {
+    height: fit-content;
+    min-width: max-content;
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+
+  .setup-submit-button {
+    background-color: white;
+    margin-left: 30.5% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .setup-button {
+    margin-top: 2%;
+    padding: 5%;
+    width: 90% !important;
+  }
+
+  .table {
+    width: 100%;
+    /* min-width: max-content; */
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+  .alarm-card {
+    margin: 11% !important;
+    padding: 5% !important;
+  }
+
+  .alarm-header {
+    text-align: center;
+  }
+
+  .task-canvas {
+    margin-top: 0%;
+    padding: 0%;
+  }
+
+  .calendar-canvas {
+    margin-top: 0%;
+  }
+
+  .calendar-card {
+    height: 520px !important;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0%;
+    margin-top: 0% !important;
+  }
+
+  .rbc-toolbar {
+    height: 0%;
+    margin-bottom: 0%;
+  }
+
+  .rbc-calendar {
+    height: 87%;
+  }
+  .rbc-month-view {
+    margin-top: 3%;
+    height: 0%;
+  }
+
+  .chat-canvas {
+    margin-top: 5%;
+    position: relative;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container-fluid {
+    width: 95% !important;
+  }
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  th {
+    color: #ffff !important;
+  }
+
+  table td {
+    padding: 2% !important;
+    vertical-align: center !important;
+    border-top: 1px solid #dee2e6;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: static;
+    top: 14px;
+    left: 6px;
+    width: 45%;
+    padding-right: 67px;
+    white-space: nowrap;
+  }
+
+  /*
+	Label the data
+	*/
+  td:nth-of-type(1):before {
+    content: "TimeStamp";
+  }
+  td:nth-of-type(2):before {
+    content: "Air Too Hot";
+    color: #ffff !important;
+  }
+  td:nth-of-type(3):before {
+    content: "Air Too Cold";
+    color: #ffff !important;
+  }
+  td:nth-of-type(4):before {
+    content: "Air Too Dry";
+    color: #ffff !important;
+  }
+  td:nth-of-type(5):before {
+    content: "Air Too Moist";
+    color: #ffff !important;
+  }
+  td:nth-of-type(6):before {
+    content: "Air Too Moist";
+    color: #ffff !important;
+  }
+  td:nth-of-type(7):before {
+    content: "Water Too Hot";
+    color: #ffff !important;
+  }
+  td:nth-of-type(8):before {
+    content: "Water Too Hot";
+    color: #ffff !important;
+  }
+  td:nth-of-type(9):before {
+    content: "Ph too High";
+    color: #ffff !important;
+  }
+  td:nth-of-type(10):before {
+    content: "Water Level Too Low";
+    color: #ffff !important;
+  }
+  td:nth-of-type(11):before {
+    content: "Water Level Too High";
+    color: #ffff !important;
+  }
+  td:nth-of-type(12):before {
+    content: "Lights On";
+    color: #ffff !important;
+  }
+  td:nth-of-type(13):before {
+    content: "Lights Off";
+    color: #ffff !important;
+  }
+  td:nth-of-type(14):before {
+    content: "Motion Start";
+    color: #ffff !important;
+  }
+  td:nth-of-type(15):before {
+    content: "Motion Stop";
+    color: #ffff !important;
+  }
+
+  /* navbar styles */
+  .is-white {
+    background: rgb(255, 255, 255);
+    height: 130px;
+  }
+  .img {
+    margin-left: 50%;
+  }
+
+  .is-dark {
+    background: rgb(19, 25, 36);
+    height: 60px;
+  }
+
+  .readings-grid-readings {
+    padding-top: "0%";
+    padding-bottom: "1%";
+    margin-left: " 1%";
+  }
+
+  .readings-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    min-width: max-content;
+    /* padding: 2%; */
+    height: 510px;
+    width: 295px;
+    margin-left: 0%;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem;
+  }
+
+  .grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: calc(100%);
+    margin: 1%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .chart-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    width: 295px;
+    margin-left: 11.5%;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0%;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0%;
+    width: 300px;
+    border: 1px solid rgb(63, 81, 181) !important;
+    border-radius: 0.25rem;
+  }
+
+  .chartjs-render-monitor {
+    display: block;
+    height: 350px !important;
+    width: 275px !important;
+  }
+
+  .chart-title-text-large {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .readings-title-text-large {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .temperature-header-chart {
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: center;
+  }
+
+  .temperature-header-readings {
+    padding-top: 2%;
+    padding-left: 5%;
+    text-align: center;
+  }
+
+  .readings-header-chart {
+    padding-top: 1%;
+    padding-left: 15%;
+  }
+
+  .readings-canvas {
+    margin-top: 5%;
+  }
+
+  .readings-grid-chart {
+    padding: 0% !important;
+    padding-bottom: 0% !important;
+  }
+
+  .w10 {
+    width: 300px !important;
+    height: 350px !important ;
+  }
+
+  .setup-canvas {
+    margin-left: -4%;
+    margin-top: 5%;
+  }
+
+  .container-chart {
+    padding-top: 1%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .container-signin {
+    width: 340px;
+    display: inline-flex;
+    margin: 10px;
+    margin-top: 23%;
+    padding: 3%;
+  }
+
+  .container-forgot {
+    padding: 10%;
+    margin: 5%;
+    margin-top: 33%;
+  }
+
+  .chart {
+    padding-top: 1%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .readings-grid {
+    padding-left: 1%;
+    padding-top: 5%;
+  }
+
+  .card-value {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .temp-grid-card {
+    min-width: max-content;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+
+  .readings-card-actualValue {
+    padding-left: 0.2%;
+  }
+
+  .readings-card-headerValue {
+    padding-left: 0.2%;
+    margin-right: 0.2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-width: max-content;
+    word-wrap: normal;
+    text-align: center;
+    border-radius: 0.25rem;
+  }
+
+  .setup-submit-button {
+    background-color: white;
+    margin-left: 38.5% !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 4% !important;
+    margin-bottom: 2% !important;
+  }
+
+  .setup-card-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    min-height: 30px;
+    margin-top: 5%;
+  }
+
+  .setup-main-grid {
+    align-content: center;
+    width: 100%;
+    margin: 0%;
+  }
+
+  .chat-canvas {
+    margin-top: 0% !important;
+    position: relative;
+  }
+
+  .setup-time {
+    align-content: top;
+  }
+
+  .setup-water {
+    align-content: top;
+  }
+
+  .setup-temperature {
+    align-content: top;
+  }
+
+  .buttons-container {
+    padding-top: 5%;
+  }
+
+  .setup-button-card {
+    padding: 5%;
+    margin: 2%;
+    border: 1px solid rgb(63, 81, 181);
+  }
+
+  .setup-buttons-title {
+    height: fit-content;
+    min-width: -webkit-fill-available;
+    text-align: -webkit-center;
+    margin-top: 0%;
+  }
+
+  .setup-button-card-canvas {
+    margin-top: 0%;
+    padding: 5%;
+    height: 490px;
+    width: 300px;
+    border: 1px solid rgb(63, 81, 181);
+    border-radius: 0.25rem !important;
+  }
+
+  .setup-div-textfield {
+    margin-top: 7%;
+    margin-left: 12%;
+    margin-bottom: 10%;
+  }
+
+  .table {
+    width: 100%;
+    /* min-width: max-content; */
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+  .alarm-card {
+    margin: 11%;
+    padding: 5%;
+  }
+
+  .alarm-header {
+    text-align: center;
+  }
+  .root {
+    flex-grow: 1;
+    width: "100%";
+    background-color: "transparent";
+    align-content: center;
+  }
+
+  .tabs-menu-canvas {
+    width: 100%;
+  }
+
+  .tab-style {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding: 0% !important;
+    width: fit-content !important;
+    font-size: 0.7rem !important;
+  }
+
+  .tabs-menu {
+    width: 100%;
+    margin-left: 1%;
+  }
+
+  .task-canvas {
+    height: 525px;
+    margin-top: 1%;
+    padding: 1%;
+  }
+
+  .calendar-card {
+    margin-top: 2%;
+    height: 400px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+  }
+}

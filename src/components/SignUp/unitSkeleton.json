@@ -1,0 +1,121 @@
+{
+  "chat": {
+    "groups": {
+      "unit": [null, "a", "b"]
+    },
+    "messages": {
+      "-KJHGYYHBJJJ": {
+        "message": "first message",
+        "userName": "HAL"
+      }
+    }
+  },
+  "setup": {
+    "setup_state": {
+      "aa": 24,
+      "ai": 18,
+      "df": 46,
+      "dv": 6,
+      "ha": 80,
+      "hi": 40,
+      "of": 22,
+      "ov": 22,
+      "pa": 7,
+      "pi": 6,
+      "wa": 24,
+      "wi": 10
+    },
+    "timestamped_setups": {
+      "-LjS90LVwSZxa9YZ0vVZ": {
+        "setup": {
+          "aa": 24,
+          "ai": 18,
+          "df": "46",
+          "dv": "35 ",
+          "ha": 80,
+          "hi": 40,
+          "of": 22,
+          "ov": 22,
+          "pa": 7,
+          "pi": 6,
+          "wa": 24,
+          "wi": 10
+        },
+        "timestamp": 1562783520168
+      }
+    }
+  },
+  "alarm": {
+    "alarm_state": {
+      "ac": 0,
+      "ad": 1,
+      "ah": 0,
+      "am": 0,
+      "header": "alarm",
+      "lf": 0,
+      "lh": 0,
+      "ll": 0,
+      "ln": 1,
+      "ma": 0,
+      "mo": 1,
+      "wh": 1
+    },
+    "timestamped_alarms": {
+      "-LhXGA1M6RmJ7BzysiDq": {
+        "alarm": {
+          "ac": 0,
+          "ad": 0,
+          "ah": 0,
+          "am": 0,
+          "header": "alarm",
+          "lf": 0,
+          "lh": 0,
+          "ll": 0,
+          "ln": 1,
+          "ma": 0,
+          "mo": 1,
+          "wh": "1"
+        },
+        "timestamp": 1560721797466
+      }
+    }
+  },
+  "calendar": {
+    "calendar_events": {
+      "-LiYPcc3M04w0hrevipx": {
+        "author": "admin",
+        "end": "Sat Jun 29 2019 00:00:00 GMT+0200 (Central European Summer Time)",
+        "receiver": "all",
+        "start": "Sat Jun 29 2019 00:00:00 GMT+0200 (Central European Summer Time)",
+        "title": "blank"
+      }
+    }
+  },
+  "control": {
+    "control_state": {
+      "ah": "0",
+      "f": "1",
+      "header": "control",
+      "l": "1",
+      "p": "0",
+      "vi": "1",
+      "vo": "1",
+      "wh": "1"
+    },
+    "timestamped_controls": {
+      "-LhbkzeWtQiQaIHIXJnB": {
+        "control": {
+          "ah": 0,
+          "f": 1,
+          "header": "control",
+          "l": 0,
+          "p": 0,
+          "vi": 0,
+          "vo": 1,
+          "wh": 1
+        },
+        "timestamp": 1560814025392
+      }
+    }
+  }
+}

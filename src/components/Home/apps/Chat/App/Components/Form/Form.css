@@ -1,0 +1,231 @@
+@media only screen and (min-width: 1400px) {
+  .form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0%;
+    width: 100%;
+  }
+  .form__row {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-wrap: nowrap;
+    width: 488px;
+    padding-bottom: 20px;
+  }
+
+  .form__input:focus {
+    background-color: white;
+  }
+  .form__button {
+    padding: 0 30px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 1 5px 5px 0;
+    outline: 0;
+    cursor: pointer;
+  }
+  .form__button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .form__message {
+    width: 488px;
+    height: 450px;
+    padding: 5%;
+    background-image: none !important;
+    background-image: url(../../../../../../../img/pattern.png) !important;
+    background-color: rgb(252, 250, 250);
+    overflow-y: scroll;
+  }
+
+  .form__message2 {
+    width: 488px;
+    height: 450px;
+    padding: 5%;
+    background-image: none !important;
+    background-color: rgb(252, 250, 250);
+    overflow-y: scroll;
+  }
+
+  .card-heading {
+    padding-top: 30%;
+    display: contents;
+    width: 424px;
+  }
+
+  .chat-grid-card {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    width: fit-content;
+    /* padding: 2%; */
+    height: 600px;
+    border: 1px solid rgb(63, 81, 181);
+  }
+
+  .form__input {
+    width: 100%;
+    padding: 15px 20px;
+    margin-right: 3%;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    outline: 0;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 900px) and (max-device-width: 1400px) {
+  .form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0%;
+    width: 100%;
+  }
+  .form__row {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-wrap: nowrap;
+    width: 424px;
+    padding-bottom: 20px;
+  }
+  .form__input {
+    width: 100%;
+    padding: 15px 20px;
+    margin-right: 11px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  .form__input:focus {
+    background-color: white;
+  }
+  .form__button {
+    padding: 0 30px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 1 5px 5px 0;
+    outline: 0;
+    cursor: pointer;
+  }
+  .form__button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .form__message {
+    width: 100%;
+    height: 300px;
+    padding: 5%;
+    background-image: url(../../../../../../../img/pattern.png) !important;
+    overflow-y: scroll;
+  }
+
+  .form__message2 {
+    width: 100%;
+    height: 325px;
+    padding: 5%;
+    background-color: rgb(252, 250, 250);
+    background-image: none !important;
+    overflow-y: scroll;
+  }
+
+  .card-heading {
+    padding-top: 30%;
+    display: contents;
+    width: 424px;
+  }
+
+  .chat-grid-card {
+    display: flex;
+    margin-right: 2%;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 1.5rem;
+    height: 450px;
+    border: 1px solid rgb(63, 81, 181);
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .container-fluid {
+    width: 95% !important;
+  }
+  .form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0%;
+    width: 100%;
+  }
+  .form__row {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-wrap: nowrap;
+    width: 316px;
+    padding-bottom: 20px;
+  }
+  .form__input {
+    width: 225px;
+    padding: 15px 20px;
+    margin-right: 11px;
+    margin-left: 2%;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  .form__input:focus {
+    background-color: white;
+  }
+  .form__button {
+    padding: 0 30px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 1 5px 5px 0;
+    outline: 0;
+    cursor: pointer;
+  }
+  .form__button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .form__message {
+    width: 95%;
+    height: 315px;
+    margin: 2.5%;
+    padding: 5%;
+    background-image: url(../../../../../../../img/pattern.png) !important;
+    overflow-y: scroll;
+  }
+
+  .form__message2 {
+    width: 100%;
+    height: 325px;
+    padding: 5%;
+    background-color: rgb(252, 250, 250);
+    background-image: none !important;
+    overflow-y: scroll;
+  }
+
+  .card-heading {
+    padding-top: 30%;
+    display: contents;
+    width: 424px;
+  }
+
+  .chat-grid-card {
+    position: relative;
+    padding-top: 0%;
+  }
+}
